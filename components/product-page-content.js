@@ -26,9 +26,6 @@ export const ProductPageContent = (props) => {
       <h2 className="text-center text-4xl text-white font-extrabold mb-10">
         Product Page for {product.title}
       </h2>
-      <h5 className="text-center">
-        (Click on top left to go back to homepage)
-      </h5>
       <div className="flex justify-center">
             <Card
               key={product.description}

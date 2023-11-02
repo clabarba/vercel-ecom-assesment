@@ -55,7 +55,7 @@ export const ProductContent = (props) => {
                 </CardTitle>
                 <CardContent className="pt-4 px-0">
                   <p className="text-zinc-400 text-sm">
-                    ${item.priceRange.maxVariantPrice.amount}
+                    Price: ${item.priceRange.maxVariantPrice.amount}
                   </p>
                 </CardContent>
               </CardHeader>
